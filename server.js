@@ -14,6 +14,16 @@ app.post('/chat', (req, res) => {
 	else if (req.body.msg == "meteo") {
 		console.log("Il fait beau")
 		res.send("Il fait beau")
+	} 
+})
+
+app.get('/hello', (req, res) => {
+	let name = req.param('nom');
+	console.log(name)
+	if (name != undefined && name != "") {
+		res.send("Bonjour, " + name)
+	} else {
+		res.send("Quel est votre nom ?")
 	}
 })
 
