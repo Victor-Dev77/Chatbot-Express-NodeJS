@@ -1,0 +1,23 @@
+{
+  "name": "chatbot-express-nodejs",
+  "version": "1.0.0",
+  "description": "Chatbot Express NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor-Dev77/Chatbot-Express-NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victor-Dev77/Chatbot-Express-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Victor-Dev77/Chatbot-Express-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
